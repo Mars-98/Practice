@@ -1,0 +1,46 @@
+How would you design ...? // An interviewer will ask how I would design a certain software; could be twitter, uber, facebook, ect.
+
+
+1) Focus is usually on the data model.
+	- How you would build out a database to reflect all the information for the given product
+2) Don't mention any specific technology
+	- Instead say:
+		- I would pick a web framework for the front end, and here are the requirements for such framework.
+			-I would need something that could easily render out a list of tweets
+			- It would be a framework that would have to work well on mobile, if I expect the users to access the page frequently from a mobile device
+3) Draw stuff
+	- for example uber: draw a user sees when they're trying to find a ride
+4) Talk
+
+1. You could ask if they're looking for a specific feature, oftentimes, they'd say no, just give it your best shot, meaning talk about the whole software.
+	- First thing to focus on is the data model
+
+- Strategy for solving such questions-
+1) Identify 2 or 3 core features -> 2) Possible Implementation -> 3) Identify and ddress Difficulties -> 4) Solutions for scaling
+
+- In the case of twitter - 
+1) Draw a quick sketch on a whiteboard of the UI, focusing on features like where tweets go, friends list, etc. And pick out 2 and focus on it
+2) Think about the database implementation, like the web interface, and what happens when tweet button is cliked, 
+	or backend, when we send a request to backend server, to create a new tweet. Think about the fields that a tweet and a database has. 
+3) In the case of writing tweets and showing popular tweets. 
+	- Challenges: How does a tweet look like in the database, how to make the #topic and @mention, how to implement retweets
+				- As for feed, I would ask myself how to show interesting tweets at top of feed
+				The interviewer is testing your ability to figure out and address different 
+4)scaling for users:
+	cache data: 
+				The user would first send a request to our server, the server would take a full second to decide what to show the user, 
+				and imagine having millions of users accessing the same request at the same time, building out the feed for every single request that comes in, 
+				could get really expensive, really fast.
+				A possible solution:
+					- when A user comes to our server, we will get a list of tweets out of our database and and we will run a really expensive algorithm 
+					  in the server to calculate the users feed (calculate top 10 tweets we want to show the user).
+					  We can send the tweets back the tweets, and simultaneously, stash it in a memory store.
+					  Then anytime the user comes back, we don't need to run the expensive algorithm again, we would return what we had already stored.
+					  
+					  Caching - doing work one time, and storing it, then reuse result if we need to recalculate again.
+
+	deployment options:
+				Horizontal scaling, which means to use a load balancer, meaning having multiple servers, that when a user request comes in, 
+				it's distributed to any server, the servers would be invisible to the user, and they all implement the same algorithm. Thus any of the servers
+				can handle a given request and respond back
+		

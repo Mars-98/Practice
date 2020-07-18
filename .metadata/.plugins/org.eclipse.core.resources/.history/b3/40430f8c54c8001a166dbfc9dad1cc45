@@ -1,0 +1,27 @@
+package aLeetcode;
+
+import java.util.Stack;
+
+public class reversePolishNotation {
+	public static void main(String[]args) {
+		String[] exp = {"2", "4", "+", "6", "-", "5", "*"};
+		
+		System.out.print(evalRPN(exp));
+	}
+	public static int evalRPN(String[] tokens) {
+        Stack<String> result = new Stack<String>();
+        for(int i = 0; i < tokens.length; i++){
+            if(tokens[i].contains("[^-+*/]")){
+            	System.out.print(tokens[i]);
+                result.push(tokens[i]);
+            }else{
+//                 int one = Integer.parseInt(result.pop());
+//                 int two = Integer.parseInt(result.pop());
+//                 String pushed = one + tokens[i] + two;
+//                 result.push(pushed);
+            }
+        }
+       // return Integer.parseInt(result.pop());
+        return 0;
+    }
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/public/lecture14.git"/>
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/401/adams222/git/homework14.git"/>
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/401/adams22s/git/homework14.git"/>
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/401/adams222/git/lab13.git"/>
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/401/adams222/git/homework13.git"/>
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/401/adams222/git/lab12.git"/>
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/401/adams222/git/homework12.git"/>
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/401/adams222/git/homework11.git"/>
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/401/adams222/git/lab11.git"/>
+		<item value="ssh://adams222@andrew.cs.uwm.edu:53211/afs/cs.uwm.edu/users/classes/cs351/401/adams222/git/lab10.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="mary &lt;mary@10.21.47.108&gt;"/>
+		<item value="mary &lt;mary@10.21.45.147&gt;"/>
+		<item value="mary &lt;mary@localhost&gt;"/>
+		<item value="mary &lt;mary@10.21.45.155&gt;"/>
+		<item value="mary &lt;mary@10.21.45.167&gt;"/>
+		<item value="mary &lt;mary@172.20.10.2&gt;"/>
+		<item value="mary &lt;mary@10.22.199.233&gt;"/>
+		<item value="mary &lt;mary@10.22.201.12&gt;"/>
+		<item value="mary &lt;mary@10.22.199.207&gt;"/>
+		<item value="mary &lt;mary@10.22.201.154&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="mary &lt;mary@10.21.47.108&gt;"/>
+		<item value="mary &lt;mary@10.21.45.147&gt;"/>
+		<item value="mary &lt;mary@localhost&gt;"/>
+		<item value="mary &lt;mary@10.21.45.155&gt;"/>
+		<item value="mary &lt;mary@10.21.45.167&gt;"/>
+		<item value="mary &lt;mary@172.20.10.2&gt;"/>
+		<item value="mary &lt;mary@10.22.199.233&gt;"/>
+		<item value="mary &lt;mary@10.22.201.12&gt;"/>
+		<item value="mary &lt;mary@10.22.199.207&gt;"/>
+		<item value="mary &lt;mary@10.22.201.154&gt;"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item value="650" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="434" key="DIALOG_HEIGHT"/>
+		<item value="96" key="DIALOG_X_ORIGIN"/>
+		<item value="118" key="DIALOG_Y_ORIGIN"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+		<item value="287" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>
