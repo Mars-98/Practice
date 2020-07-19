@@ -5,9 +5,9 @@ import java.util.List;
 public class arraychunking {
 	public static void main(String[]args) {
 		int[] array = {2,2,2,7,9,6,4,3};
-		ArrayList<List<Integer>> arr1 = chunk1(array,3);
+		//ArrayList<List<Integer>> arr1 = chunk1(array,3);
 		List<int[]> arr = chunk(array,3);
-		List<ArrayList<Integer>> arr2 = chunk2(array,3);
+		//List<ArrayList<Integer>> arr2 = chunk2(array,3);
 		for(int i = 0; i < arr.size(); i++) {
 			int[] r = arr.get(i);
 			for(int j = 0; j < r.length; j++) {
